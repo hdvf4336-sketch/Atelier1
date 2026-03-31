@@ -7,6 +7,7 @@
 </head>
 <body>
     <h1>Mohamed wolcome</h1>
+    <img src="/History.jpg" alt="">
     <h2>Atlier 1</h2>
     <ul>
         <li><a href="ex1.php">table de multiplication</a></li>
