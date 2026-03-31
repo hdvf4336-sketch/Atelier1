@@ -11,7 +11,9 @@
     <h2>Atlier 1</h2>
     <ul>
         <li><a href="ex1.php">table de multiplication</a></li>
-        <li><a href="At1.pdf">Rapport</a></li>
+        <li><a href="/At1.pdf">Rapport</a></li>
+        <li><a href="ex1.php">table de multiplication</a></li>
+        <li><a href="moha.php">Rapport</a></li>
     </ul>
 
 </body>
