@@ -86,7 +86,7 @@
     <div class="projects"><div class="card">
     <h3>Calculatrice JS</h3>
     <p>Une calculatrice simple en JavaScript.</p>
-    <a href="" class="btn" target="_blank">Voir le projet</a>
+    <a href="atelire2.php" class="btn" target="_blank">Voir le projet</a>
   </div>
 
   <div class="card">
