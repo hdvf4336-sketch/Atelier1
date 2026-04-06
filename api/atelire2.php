@@ -41,17 +41,17 @@ if(!empty($_POST['action1'])){
 
     date de naissance : <input type="date" name="date"><br>
 
-    <!-- نفس name باش يخدم radio -->
+   
     sexe: 
     <input type="radio" name="sexe" value="homme"> homme 
     <input type="radio" name="sexe" value="femme"> femme<br>
 
-    <!-- خاص name="loisirs[]" -->
+
     loisirs: 
-    <input type="checkbox" value="lecture" name="loisirs[]"> lecture 
-    <input type="checkbox" value="sciences" name="loisirs[]"> sciences 
-    <input type="checkbox" value="sport" name="loisirs[]"> sport 
-    <input type="checkbox" value="voyage" name="loisirs[]"> voyage <br>
+    <input type="checkbox" value="lecture" name="loisirs"> lecture 
+    <input type="checkbox" value="sciences" name="loisirs"> sciences 
+    <input type="checkbox" value="sport" name="loisirs"> sport 
+    <input type="checkbox" value="voyage" name="loisirs"> voyage <br>
 
     <textarea name="Information">Information complémentaires:</textarea>
 
