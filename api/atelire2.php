@@ -32,7 +32,7 @@ if(!empty($_POST['action1'])){
     numéro d inscription : <input type="text" name="cin"> <br>
     nom et prenom : <input type="text" name="nom"> <br>
 
-    <!-- خاص select ماشي section -->
+
     <select name="ville">
         <option value="tanger">tanger</option>
         <option value="casa">casa</option>
@@ -42,16 +42,11 @@ if(!empty($_POST['action1'])){
     date de naissance : <input type="date" name="date"><br>
 
    
-    sexe: 
-    <input type="radio" name="sexe" value="homme"> homme 
-    <input type="radio" name="sexe" value="femme"> femme<br>
+    sexe: <input type="radio" name="sexe" value="homme"> homme <input type="radio" name="sexe" value="femme"> femme<br>
 
 
-    loisirs: 
-    <input type="checkbox" value="lecture" name="loisirs"> lecture 
-    <input type="checkbox" value="sciences" name="loisirs"> sciences 
-    <input type="checkbox" value="sport" name="loisirs"> sport 
-    <input type="checkbox" value="voyage" name="loisirs"> voyage <br>
+    loisirs: <input type="checkbox" value="lecture" name="loisirs"> lecture <input type="checkbox" value="sciences" name="loisirs"> sciences <input type="checkbox" value="sport" name="loisirs"> sport <input type="checkbox" value="voyage" name="loisirs"> voyage <br>
+    
 
     <textarea name="Information">Information complémentaires:</textarea>
 
