@@ -61,13 +61,9 @@ if(!empty($_POST['action2'])){
     $date=$_POST['date'];
     $sexe=$_POST['sexe'];
     $info=$_POST['Information']
+    $lose=$_POST['loisirs[]']
 
 
-    if(isset($_POST['loisirs'])){
-        foreach($_POST['loisirs'] as $elt){
-            
-        }
-    }
 
 
     echo("<table>");
@@ -101,12 +97,11 @@ if(!empty($_POST['action2'])){
            echo("<td>loisirs</td>");
            echo("<td>");
                echo("<ul>");
-                    if(isset($_POST['loisirs'])){
-                    foreach($_POST['loisirs'] as $elt){
+    
+                    foreach($lose as $elt){
+                        echo("<li>$elt</li>")
                         
-                        }
                     }
-                    echo("<li>$elt</li>")
 
                echo("</ul>");
            echo("</td>");
