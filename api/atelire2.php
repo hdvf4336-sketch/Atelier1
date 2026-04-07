@@ -62,11 +62,10 @@ if(!empty($_POST['action2'])){
     $sexe=$_POST['sexe'];
     $info=$_POST['Information']
 
-    $s="";
 
     if(isset($_POST['loisirs'])){
         foreach($_POST['loisirs'] as $elt){
-            $s .= $elt . " ";
+            
         }
     }
 
@@ -100,7 +99,17 @@ if(!empty($_POST['action2'])){
 
         echo("<tr>");
            echo("<td>loisirs</td>");
-           echo("<td>$s</td>");
+           echo("<td>");
+               echo("<ul>");
+                    if(isset($_POST['loisirs'])){
+                    foreach($_POST['loisirs'] as $elt){
+                        
+                        }
+                    }
+                    echo("<li>$elt</li>")
+
+               echo("</ul>");
+           echo("</td>");
         echo("</tr>");
 
         echo("<tr>");
