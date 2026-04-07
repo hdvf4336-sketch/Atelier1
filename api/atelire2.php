@@ -45,7 +45,7 @@ if(!empty($_POST['action1'])){
     sexe: <input type="radio" name="sexe" value="homme"> homme <input type="radio" name="sexe" value="femme"> femme<br>
 
 
-    loisirs: <input type="checkbox" value="lecture" name="loisirs"> lecture <input type="checkbox" value="sciences" name="loisirs"> sciences <input type="checkbox" value="sport" name="loisirs"> sport <input type="checkbox" value="voyage" name="loisirs"> voyage <br>
+    loisirs: <input type="checkbox" value="lecture" name="loisirs[] "> lecture <input type="checkbox" value="sciences" name="loisirs[]"> sciences <input type="checkbox" value="sport" name="loisirs[]"> sport <input type="checkbox" value="voyage" name="loisirs[]"> voyage <br>
     
 
     <textarea name="Information">Information complémentaires:</textarea>
@@ -60,6 +60,7 @@ if(!empty($_POST['action2'])){
     $ville=$_POST['ville'];
     $date=$_POST['date'];
     $sexe=$_POST['sexe'];
+    $info=$_POST['Information']
 
     $s="";
 
@@ -69,7 +70,63 @@ if(!empty($_POST['action2'])){
         }
     }
 
-    echo("numéro d inscription : $cin , nom et prenom: $nom , ville: $ville , date de naissance : $date , sexe: $sexe , loisirs: $s");
+
+    echo("<table>");
+
+        echo("<tr>");
+           echo("<td>numéro d inscription</td>");
+           echo("<td>$cin</td>");
+        echo("</tr>");
+
+        echo("<tr>");
+           echo("<td>nom et prenom</td>");
+           echo("<td>$nom</td>");
+        echo("</tr>");
+
+        echo("<tr>");
+           echo("<td>ville</td>");
+           echo("<td>$ville</td>");
+        echo("</tr>");
+
+        echo("<tr>");
+           echo("<td>date de naissance</td>");
+           echo("<td>$date</td>");
+        echo("</tr>");
+
+        echo("<tr>");
+           echo("<td>sexe</td>");
+           echo("<td>$sexe</td>");
+        echo("</tr>");
+
+        echo("<tr>");
+           echo("<td>loisirs</td>");
+           echo("<td>$s</td>");
+        echo("</tr>");
+
+        echo("<tr>");
+           echo("<td>Information complémentaires</td>");
+           echo("<td>$info</td>");
+        echo("</tr>");
+
+
+
+        
+
+
+
+
+
+
+
+
+
+        
+
+
+
+    echo("</table>");
+
+
 }
 ?>
 
