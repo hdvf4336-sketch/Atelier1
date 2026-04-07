@@ -82,17 +82,17 @@
     <p>Étudiant en Développement Digital | Passionné par la programmation</p>
   </header>
   <div class="container">
-    <h2>Mes Projets</h2>
+    <h2>atelire1</h2>
     <div class="projects"><div class="card">
-    <h3>Calculatrice JS</h3>
-    <p>Une calculatrice simple en JavaScript.</p>
-    <a href="atelire2.php" class="btn" target="_blank">Voir le projet</a>
+    <h3>tamaren</h3>
+    <p>tasseheh.</p>
+    <a href="ex2.php" class="btn" target="_blank">Voir le projet</a>
   </div>
 
   <div class="card">
-    <h3>Application Fitness</h3>
-    <p>Programme basé sur le poids et la taille.</p>
-    <a href="" class="btn" target="_blank">Voir le projet</a>
+    <h3>atelire2</h3>
+    <p>formuler php..</p>
+    <a href="atelire2.php" class="btn" target="_blank">Voir le projet</a>
   </div>
 
   <div class="card">
