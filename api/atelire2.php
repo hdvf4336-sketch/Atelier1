@@ -32,7 +32,6 @@ if(!empty($_POST['action1'])){
     numéro d inscription : <input type="text" name="cin"> <br>
     nom et prenom : <input type="text" name="nom"> <br>
 
-
     <select name="ville">
         <option value="tanger">tanger</option>
         <option value="casa">casa</option>
@@ -41,12 +40,15 @@ if(!empty($_POST['action1'])){
 
     date de naissance : <input type="date" name="date"><br>
 
-   
-    sexe: <input type="radio" name="sexe" value="homme"> homme <input type="radio" name="sexe" value="femme"> femme<br>
+    sexe: 
+    <input type="radio" name="sexe" value="homme"> homme 
+    <input type="radio" name="sexe" value="femme"> femme<br>
 
-
-    loisirs: <input type="checkbox" value="lecture" name="loisirs[] "> lecture <input type="checkbox" value="sciences" name="loisirs[]"> sciences <input type="checkbox" value="sport" name="loisirs[]"> sport <input type="checkbox" value="voyage" name="loisirs[]"> voyage <br>
-    
+    loisirs: 
+    <input type="checkbox" value="lecture" name="loisirs[]"> lecture 
+    <input type="checkbox" value="sciences" name="loisirs[]"> sciences 
+    <input type="checkbox" value="sport" name="loisirs[]"> sport 
+    <input type="checkbox" value="voyage" name="loisirs[]"> voyage <br>
 
     <textarea name="Information">Information complémentaires:</textarea>
 
@@ -55,84 +57,38 @@ if(!empty($_POST['action1'])){
 
 <?php
 if(!empty($_POST['action2'])){
-    $cin=$_POST['cin'];
-    $nom=$_POST['nom'];
-    $ville=$_POST['ville'];
-    $date=$_POST['date'];
-    $sexe=$_POST['sexe'];
-    $info=$_POST['Information']
-    $lose=$_POST['loisirs[]']
+    $cin = $_POST['cin'];
+    $nom = $_POST['nom'];
+    $ville = $_POST['ville'];
+    $date = $_POST['date'];
+    $sexe = $_POST['sexe'];
+    $info = $_POST['Information'];
+    $lose = $_POST['loisirs']; // 
 
+    echo("<table border='1'>");
 
+    echo("<tr><td>numéro d inscription</td><td>$cin</td></tr>");
+    echo("<tr><td>nom et prenom</td><td>$nom</td></tr>");
+    echo("<tr><td>ville</td><td>$ville</td></tr>");
+    echo("<tr><td>date de naissance</td><td>$date</td></tr>");
+    echo("<tr><td>sexe</td><td>$sexe</td></tr>");
 
-
-    echo("<table>");
-
-        echo("<tr>");
-           echo("<td>numéro d inscription</td>");
-           echo("<td>$cin</td>");
-        echo("</tr>");
-
-        echo("<tr>");
-           echo("<td>nom et prenom</td>");
-           echo("<td>$nom</td>");
-        echo("</tr>");
-
-        echo("<tr>");
-           echo("<td>ville</td>");
-           echo("<td>$ville</td>");
-        echo("</tr>");
-
-        echo("<tr>");
-           echo("<td>date de naissance</td>");
-           echo("<td>$date</td>");
-        echo("</tr>");
-
-        echo("<tr>");
-           echo("<td>sexe</td>");
-           echo("<td>$sexe</td>");
-        echo("</tr>");
-
-        echo("<tr>");
-           echo("<td>loisirs</td>");
-           echo("<td>");
-               echo("<ul>");
+    echo("<tr><td>loisirs</td><td><ul>");
     
-                    foreach($lose as $elt){
-                        echo("<li>$elt</li>")
-                        
-                    }
+    if(!empty($lose)){
+        foreach($lose as $elt){
+            echo("<li>$elt</li>");
+        }
+    }
 
-               echo("</ul>");
-           echo("</td>");
-        echo("</tr>");
+    echo("</ul></td></tr>");
 
-        echo("<tr>");
-           echo("<td>Information complémentaires</td>");
-           echo("<td>$info</td>");
-        echo("</tr>");
-
-
-
-        
-
-
-
-
-
-
-
-
-
-        
-
-
+    echo("<tr><td>Information complémentaires</td><td>$info</td></tr>");
 
     echo("</table>");
-
-
 }
 ?>
+
 
 </body>
 </html>
