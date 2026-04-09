@@ -365,8 +365,8 @@
     <ul class="nav-links">
       <li><a href="#about">À propos</a></li>
       <li><a href="#projects">Projets</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#contact" class="nav-cta">Contact</a></li>
+      <li><a href="">Services</a></li>
+      <li><a href="" class="nav-cta">Contact</a></li>
       <li><a href="pag.html" class="nav-cta">Atelier</a></li>
 
     </ul>
