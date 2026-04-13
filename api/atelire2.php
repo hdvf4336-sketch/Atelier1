@@ -63,7 +63,7 @@ if(!empty($_POST['action2'])){
     $date = $_POST['date'];
     $sexe = $_POST['sexe'];
     $info = $_POST['Information'];
-    $lose = $_POST['loisirs']; // 
+    $lose = $_POST['loisirs'];  
 
     echo("<table border='1'>");
 
