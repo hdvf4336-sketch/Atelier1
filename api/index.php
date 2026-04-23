@@ -323,26 +323,71 @@
         <span class="card-tag">php</span>
         <h3> atelire1</h3>
         <p></p>
-        <a href="functions.php" class="btn" target="_blank">Voir le projet</a>
+        <a href="/At1.pdf" class="btn" target="_blank">Voir le pdf</a>
       </div>
     </div>
 
     <div class="card reveal">
       <div class="card-body">
-        <span class="card-tag">Web App</span>
+        <span class="card-tag">php</span>
         <h3></h3>
-        <p>Atelire1</p>
-        <a href="atelire2.php" class="btn" target="_blank">Voir le projet</a>
+        <p>Atelire2</p>
+        <a href="/At2.pdf" class="btn" target="_blank">Voir le pdf</a>
+        <a href="atelire2.php" class="btn" target="_blank">projet </a>
       </div>
     </div>
 
     <div class="card reveal">
       
       <div class="card-body">
-        <span class="card-tag">At</span>
-        <h3>Site E-commerce</h3>
-        <p>Plateforme simple et intuitive pour la vente de produits en ligne.</p>
-        <a href="" class="btn" target="_blank">Voir le projet</a>
+        <span class="card-tag">php</span>
+        <h3></h3>
+        <p>Atelire3</p>
+        <a href="/At3.pdf" class="btn" target="_blank">pdf</a>
+        <a href="https://github.com/hdvf4336-sketch/atl3.git" class="btn" target="_blank">githa</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+<div class="container" id="projects">
+  <div class="section-label">Mes réalisations</div>
+  <h2>Mes Projets</h2>
+
+  <div class="projects">
+
+    <div class="card reveal">
+      
+      <div class="card-body">
+        <span class="card-tag">php</span>
+        <h3> atelire4</h3>
+        <p></p>
+        <a href="/At4.pdf" class="btn" target="_blank">Voir le pdf</a>
+        <a href="https://github.com/hdvf4336-sketch/AT4.git" class="btn" target="_blank">githab</a>
+      </div>
+    </div>
+
+    <div class="card reveal">
+      <div class="card-body">
+        <span class="card-tag">php</span>
+        <h3></h3>
+        <p>Atelire5</p>
+        <a href="/At5.pdf" class="btn" target="_blank">Voir le pdf</a>
+        <a href="" class="btn" target="_blank">githab</a>
+      </div>
+    </div>
+
+    <div class="card reveal">
+      
+      <div class="card-body">
+        <span class="card-tag">php</span>
+        <h3></h3>
+        <p>Atelire6</p>
+        <a href="/At3.pdf" class="btn" target="_blank">pdf</a>
+        <a href="" class="btn" target="_blank">githa</a>
       </div>
     </div>
 
